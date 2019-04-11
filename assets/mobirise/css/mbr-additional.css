@@ -1791,6 +1791,10 @@ body {
 .cid-rmkcLP7yzv .mbr-section-btn I {
   color: #efefef;
 }
+.cid-rmkcLP7yzv .mbr-text,
+.cid-rmkcLP7yzv .mbr-section-btn {
+  text-align: center;
+}
 #instagram-feed-block-e .inst__title {
   color: #efefef;
 }
