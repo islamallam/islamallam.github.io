@@ -51,10 +51,10 @@ body {
 }
 .display-7 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.44rem;
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -661,13 +661,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Quicksand', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.44rem;
+  font-size: 1.6rem;
 }
 .form-control,
 .form-control:focus {
@@ -1793,17 +1793,6 @@ body {
 }
 .cid-rmkcLP7yzv .mbr-text,
 .cid-rmkcLP7yzv .mbr-section-btn {
-  text-align: center;
-}
-.cid-rnmpsBhBMr H1 {
-  text-align: center;
-}
-.cid-rnmpsBhBMr .mbr-text,
-.cid-rnmpsBhBMr .mbr-section-btn I {
-  color: #efefef;
-}
-.cid-rnmpsBhBMr .mbr-text,
-.cid-rnmpsBhBMr .mbr-section-btn {
   text-align: center;
 }
 #instagram-feed-block-e .inst__title {
