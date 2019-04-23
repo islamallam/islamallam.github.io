@@ -19,8 +19,8 @@
         "display2Size": "2",
         "display5Font": "News Cycle",
         "display5Size": "1.5",
-        "display7Font": "Quicksand",
-        "display7Size": "0.9",
+        "display7Font": "Rubik",
+        "display7Size": 1,
         "display4Font": "Montserrat",
         "display4Size": "0.9",
         "isRoundedButtons": true,
@@ -56,7 +56,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 19,
+    "uniqCompNum": 18,
     "versionPublish": "4.9.7",
     "favicon": "@PROJECT_PATH@/assets/images/final-sign-3.jpg",
     "noImageResize": "true",
@@ -522,7 +522,7 @@
         },
         {
           "_params": {
-            "token": "718450636.727bfe1.90e8f14a1780447fb24751f8781d5bde",
+            "token": "718450636.727bfe1.117f31b61a1a4b56a5ff2ff751e9fba5",
             "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": "4",
