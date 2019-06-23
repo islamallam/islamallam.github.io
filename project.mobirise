@@ -56,7 +56,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 29,
+    "uniqCompNum": 18,
     "versionPublish": "4.9.7",
     "favicon": "@PROJECT_PATH@/assets/images/final-sign-3.jpg",
     "noImageResize": "true",
@@ -534,13 +534,13 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Exhibitions and Featured on</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">The Exhibitions where I participated and And The platforms that featured my artwork<div><br></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Exhibitions and Features</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">The Exhibitions which I participated and And The platforms that featured my artwork.<div><br></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rue3DQCxse",
+          "_anchor": "content4-o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-o"
+          "_params": {}
         },
         {
           "alias": false,
@@ -610,11 +610,16 @@
                   "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
                 }
               }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "left",
+              "color": "#efefef"
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#363636\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#232323\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "rueaJPwNp8",
+          "_anchor": "gallery2-s",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -625,20 +630,20 @@
           "_once": false,
           "_params": {
             "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-black-outline",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-warning-outline",
             "gallery": [
               {
                 "tags": "BEYOND BORDER",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/artprize-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/artprize-1-710x1276.jpg",
+                "image": "@PROJECT_PATH@/assets/images/csfcsfsdfsd.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
-                "caption": "untit,NaTtttt-eld it was one of My Participate in Beyond Border/ Venicelands Artprize exhibition and it chosen to be used for official poster of the exhibition.",
+                "customStyle1": "display-7",
+                "caption": "One of My Participates in Beyond Border/ Venicelands Artprize exhibition and it chosen to be used for official poster of the exhibition.",
                 "active": false
               },
               {
@@ -646,11 +651,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1a-1.png",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1a-1-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/asdasfdasdas.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/asdasfdasdas-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": " My Participates in Beyond Border/ Venicelands Artprize exhibition, Italy",
                 "active": false
               },
@@ -659,11 +664,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1b-2.png",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1b-2-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/not-the-fucking-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/not-the-fucking-3-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-1",
+                "customStyle1": "display-7",
                 "caption": "untit,MarrR-eld.&nbsp;Beyond Border/ Venicelands Artprize exhibition, Italy<br>",
                 "active": false
               },
@@ -672,11 +677,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1c-2.png",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fuckartprize-1c-2-800x450.png",
+                "image": "@PROJECT_PATH@/assets/images/not-the-fucking-4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/not-the-fucking-4-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "untit, NaTtttt-eld. Beyond Border/ Venicelands Artprize exhibition, Italy",
                 "active": false
               },
@@ -685,11 +690,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-3-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-1-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway ",
                 "active": false
               },
@@ -698,11 +703,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-4.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-4-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-3-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
                 "active": false
               },
@@ -711,11 +716,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-6.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-6-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-2-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
                 "active": false
               },
@@ -724,11 +729,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-11-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/csfcsfsdfsd-4-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
                 "active": false
               },
@@ -737,69 +742,55 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/eislam1digitalartnot-the-fucknot-the-fucking-12-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ggggg.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ggggg-800x640.jpg",
                 "alt": "",
                 "title": "",
-                "customStyle1": "display-4",
+                "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
-                "active": false
-              },
-              {
-                "tags": "The Ultimate Visual Condition",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-800x1055.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the ful lpost <b>Click Here</b><br>&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "The Ultimate Visual Condition",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/2.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/2-800x1055.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the ful lpost Click Here&nbsp;<br>",
-                "active": false
-              },
-              {
-                "tags": "The Ultimate Visual Condition",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-800x1055.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the ful lpost Click Here&nbsp;<br>",
-                "active": false
-              },
-              {
-                "tags": "The Ultimate Visual Condition",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-800x1055.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-4",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the ful lpost Click Here&nbsp;<br>",
                 "active": true
+              },
+              {
+                "tags": "The Ultimate Visual Condition",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the full post <a href=\"https://www.envisionartshow.com/magazine/the-ultimate-visual-condition\" target=\"_blank\"><b><i>Click Here</i></b></a><br>",
+                "active": false
+              },
+              {
+                "tags": "Not The F*cking Help",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cusersislamdesktop2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cusersislamdesktop2-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
+                "active": false
+              },
+              {
+                "tags": "Not The F*cking Help",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cusersislamdesktop3.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cusersislamdesktop3-800x640.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
+                "active": false
               }
             ]
-          },
-          "_anchor": "gallery2-s"
+          }
         },
         {
           "_params": {
