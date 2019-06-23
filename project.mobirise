@@ -10,7 +10,7 @@
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
-        "warningColor": "#879A9F",
+        "warningColor": "#cccccc",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Montserrat",
@@ -634,7 +634,7 @@
             "gallery__filtersBtnStyle": "btn-warning-outline",
             "gallery": [
               {
-                "tags": "BEYOND BORDER",
+                "tags": "BEYOND BORDERS",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -647,7 +647,7 @@
                 "active": false
               },
               {
-                "tags": "BEYOND BORDER",
+                "tags": "BEYOND BORDERS",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -660,7 +660,7 @@
                 "active": false
               },
               {
-                "tags": "BEYOND BORDER",
+                "tags": "BEYOND BORDERS",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -673,7 +673,7 @@
                 "active": false
               },
               {
-                "tags": "BEYOND BORDER",
+                "tags": "BEYOND BORDERS",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -696,7 +696,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway ",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Not The F*cking Help",
@@ -774,7 +774,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway",
-                "active": true
+                "active": false
               },
               {
                 "tags": "The Ultimate Visual Condition",
