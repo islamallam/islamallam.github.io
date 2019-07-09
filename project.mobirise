@@ -510,7 +510,7 @@
             }
           },
           "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/33-5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#55b4d4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kF9LJhIY6hU\" selected>\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#073b4c\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#19191a\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br><br>mouse is<b> my weapon.</b></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>I'm a Digital Artist &amp; Graphic Designer</b><br>ــــــــــــــــــــــــــــــــــــــــ \n<br>Most of my work is currently classified as portraits (Digital Portraits). My artwork is a product of improvisation and listening to a music track while working on each piece, the music is randomly selected, when I listen to a piece of music and feel that harmony between it and the character I want to visually express flows, I start working on it immediately. Music plays a major role in the creative process as it represents the inspiration and guidance through the improvisation and creative process; it's a gate to get me into this distinctive mood which helps me reach, from my point of view,  the visual result I have about the character who I'm trying to visualize through improvisation and reformulation of their facial features.<br>ــــــــــــــــــــــــــــــــــــــــ <br><i>\nThe full version of website is currently being designed.</i><br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"https://www.instagram.com/byislamallam/\" data-app-placeholder=\"Type Text\" target=\"_blank\">The full version of website is currently being designed.</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/33-5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#55b4d4\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kF9LJhIY6hU\" selected>\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#073b4c\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#19191a\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br><br>mouse is<b> my weapon.</b></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>I'm a Digital Artist &amp; Graphic Designer</b><br>ــــــــــــــــــــــــــــــــــــــــ \n<br>Most of my work is currently classified as portraits (Digital Portraits). My artwork is a product of improvisation and listening to a music track while working on each piece, the music is randomly selected, when I listen to a piece of music and feel that harmony between it and the character I want to visually express flows, I start working on it immediately. Music plays a major role in the creative process as it represents the inspiration and guidance through the improvisation and creative process; it's a gate to get me into this distinctive mood which helps me reach, from my point of view,  the visual result I have about the character who I'm trying to visualize through improvisation and reformulation of their facial features.<br>As a Graphic Designer I have more than 8 years experience in graphic design.<br>ــــــــــــــــــــــــــــــــــــــــ <br><i>\nThe full version of website is currently being designed.</i><br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black\" href=\"https://www.instagram.com/byislamallam/\" data-app-placeholder=\"Type Text\" target=\"_blank\">The full version of website is currently being designed.</a></div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "header5-d",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -634,7 +634,7 @@
             "gallery__filtersBtnStyle": "btn-warning-outline",
             "gallery": [
               {
-                "tags": "BEYOND BORDERS",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -643,11 +643,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "One of My Participates in Beyond Border/ Venicelands Artprize exhibition it chosen to be used for official poster of the exhibition.",
+                "caption": "My participation in&nbsp;<i>Beyond Border/ Venicelands Artprize&nbsp;</i>exhibition.<br>untit,NaTtttt-eld chosen to be used for official poster of the exhibition.",
                 "active": false
               },
               {
-                "tags": "BEYOND BORDERS",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -660,7 +660,7 @@
                 "active": false
               },
               {
-                "tags": "BEYOND BORDERS",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -673,7 +673,7 @@
                 "active": false
               },
               {
-                "tags": "BEYOND BORDERS",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -686,7 +686,7 @@
                 "active": false
               },
               {
-                "tags": "Not The F*cking Help",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -696,10 +696,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "My participation in “Not The F*cking Help” exhibition organized by Blank S pace / Oslo, Norway ",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Not The F*cking Help",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -712,7 +712,7 @@
                 "active": false
               },
               {
-                "tags": "Not The F*cking Help",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -725,7 +725,7 @@
                 "active": false
               },
               {
-                "tags": "Not The F*cking Help",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -738,7 +738,7 @@
                 "active": false
               },
               {
-                "tags": "Not The F*cking Help",
+                "tags": "Exhibitions",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -751,7 +751,7 @@
                 "active": false
               },
               {
-                "tags": "The Ultimate Visual Condition",
+                "tags": "Features",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -764,7 +764,7 @@
                 "active": false
               },
               {
-                "tags": "The Ultimate Visual Condition",
+                "tags": "Features",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -777,7 +777,7 @@
                 "active": false
               },
               {
-                "tags": "The Ultimate Visual Condition",
+                "tags": "Features",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -788,6 +788,58 @@
                 "customStyle1": "display-7",
                 "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine 3",
                 "active": false
+              },
+              {
+                "tags": "Features",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cusersislamdownloadsfake-art-issue-01-page-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cusersislamdownloadsfake-art-issue-01-page-1-800x1130.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "untit,SarRRraAa-eld featured on <i><a href=\"http://fakeart.persona.co/\" target=\"_blank\">Fake Magazine</a> 1st&nbsp;</i>issue<i>, Chosen to be the cover also,&nbsp;</i>",
+                "active": false
+              },
+              {
+                "tags": "Features",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cusersislamdownloadsfake-art-issue-01-page-4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cusersislamdownloadsfake-art-issue-01-page-4-800x1130.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "active": false
+              },
+              {
+                "tags": "Features",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fake-art-issue-01-page-9.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fake-art-issue-01-page-9-800x1130.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "active": false
+              },
+              {
+                "tags": "Features",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/fake-art-issue-01-page-12.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fake-art-issue-01-page-12-800x1130.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "active": true
               }
             ]
           }
@@ -814,7 +866,7 @@
             "overlayColor": "#efefef",
             "overlayOpacity": 0.6
           },
-          "title": "<b>Latest Updates</b>",
+          "title": "<p><b style=\"font-size: 1.5rem;\">Latest Updates</b><br></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"1978671252509762500_718450636\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show More</a>",
           "display2": "display-5",
           "display4": "display-4",
