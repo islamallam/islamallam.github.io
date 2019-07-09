@@ -6,7 +6,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#0044f4",
+        "primaryColor": "#113288",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#113288",
+        "#3a3a3a",
         "#1e1e1e",
         "#363636",
         "#fbfbfb",
         "#f4dd00",
-        "#0044f4",
-        "#000000",
-        "#f1f1f1"
+        "#0044f4"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -760,7 +760,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine,to view the full post <a href=\"https://www.envisionartshow.com/magazine/the-ultimate-visual-condition\" target=\"_blank\"><b><i>Click Here</i></b></a><br>",
+                "caption": "My artwork Featured on ENVISION ART Magazine,to view the full post <a href=\"https://www.envisionartshow.com/magazine/the-ultimate-visual-condition\" target=\"_blank\"><b><i>Click Here</i></b></a><br>",
                 "active": false
               },
               {
@@ -773,7 +773,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine 2",
+                "caption": "My artwork Featured on ENVISION ART Magazine",
                 "active": false
               },
               {
@@ -786,7 +786,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "entitle 𝗧𝗵𝗲 𝗨𝗹𝘁𝗶𝗺𝗮𝘁𝗲 𝗩𝗶𝘀𝘂𝗮𝗹 𝗖𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 artworks featured on ENVISION ART Magazine 3",
+                "caption": "My artwork Featured on ENVISION ART Magazine",
                 "active": false
               },
               {
@@ -799,7 +799,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "untit,SarRRraAa-eld featured on <i><a href=\"http://fakeart.persona.co/\" target=\"_blank\">Fake Magazine</a> 1st&nbsp;</i>issue<i>, Chosen to be the cover also,&nbsp;</i>",
+                "caption": "untit,SarRRraAa-eld featured on<b><i> </i></b><i><a href=\"http://fakeart.persona.co/\" target=\"_blank\"><b><i>Fake Magazine</i></b></a> 1st&nbsp;</i>issue<i>, Chosen to be the cover also,&nbsp;</i>",
                 "active": false
               },
               {
@@ -812,7 +812,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue. 2",
                 "active": false
               },
               {
@@ -825,7 +825,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue. 3",
                 "active": false
               },
               {
@@ -838,7 +838,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue.",
+                "caption": "untit,SarRRraAa-eld featured on Fake Magazine 1st issue. 4",
                 "active": true
               }
             ]
