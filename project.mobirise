@@ -6,7 +6,7 @@
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#113288",
+        "primaryColor": "#232323",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#113288",
-        "#3a3a3a",
         "#1e1e1e",
         "#363636",
         "#fbfbfb",
         "#f4dd00",
-        "#0044f4"
+        "#0044f4",
+        "#000000",
+        "#f1f1f1"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -56,7 +56,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 18,
+    "uniqCompNum": 19,
     "versionPublish": "4.9.7",
     "favicon": "@PROJECT_PATH@/assets/images/final-sign-3.jpg",
     "noImageResize": "true",
@@ -846,7 +846,7 @@
         },
         {
           "_params": {
-            "token": "718450636.727bfe1.117f31b61a1a4b56a5ff2ff751e9fba5",
+            "token": "718450636.727bfe1.39040eca9b88468ebbc48ed3ef23ecc8",
             "showTitle": true,
             "layoutGridRadio": true,
             "imagesPerRowGrid": "4",
@@ -867,7 +867,7 @@
             "overlayOpacity": 0.6
           },
           "title": "<p><b style=\"font-size: 1.5rem;\">Latest Updates</b><br></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"1978671252509762500_718450636\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show More</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-max-id=\"2049813864272184848_718450636\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show More</a>",
           "display2": "display-5",
           "display4": "display-4",
           "alias": "instagram-feed",
